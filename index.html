@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>情商测试题库</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 20px; }
+        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; }
+        h1 { text-align: center; }
+        .question { margin: 15px 0; padding: 10px; border-bottom: 1px solid #ddd; }
+        button { margin-top: 20px; padding: 10px 20px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>情商测试 (50题)</h1>
+    <form id="quizForm">
+        <div id="questions"></div>
+        <button type="button" onclick="submitQuiz()">提交</button>
+    </form>
+    <div id="result"></div>
+</div>
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
