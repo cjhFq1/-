@@ -1,0 +1,73 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* 容器 */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 标题 */
+h1 {
+  color: #333;
+}
+
+/* 题目 */
+.question {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* 选项按钮 */
+.options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #f1f1f1;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.options button:hover {
+  background: #dbeafe;
+  border-color: #3b82f6;
+}
+
+/* 提交按钮 */
+#submit {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #2563eb;
+}
+
+/* 结果 */
+#result {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
